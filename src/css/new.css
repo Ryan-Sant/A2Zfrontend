@@ -1,0 +1,26 @@
+
+
+@font-face {
+  font-family: 'Gothic';
+  src: url('../fonts/Gothic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spartan';
+  src: url('../fonts/Spartan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Applied globally — every page inherits these automatically */
+body {
+  font-family: 'Spartan', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gothic', sans-serif;
+}
