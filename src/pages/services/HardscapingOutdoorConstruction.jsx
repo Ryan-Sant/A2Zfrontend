@@ -178,12 +178,12 @@ export default function LandscapeDesign() {
         <title>Landscaping & Design Services | Kitsap County WA | A to Z Landscaping</title>
         <meta name="description" content="Professional landscaping and design in Kitsap County. Bush trimming, tree branch removal, mulch, bed work and full backyard design. 9 years, 1,300+ projects. Call Ryan Scott Sant." />
         <meta name="keywords" content="landscape design Kitsap County, landscaping Kitsap County, shrub trimming, tree trimming, mulch installation, backyard design, A to Z Landscaping" />
-        <link rel="canonical" href="https://YOURDOMAIN.COM/services/landscape-design/" />
+        <link rel="canonical" href="https://atozlandscapingandmore.com/services/hardscaping" />
         <meta property="og:title" content="Landscaping & Design Services | A to Z Landscaping" />
         <meta property="og:description" content="Professional landscaping and design throughout Kitsap County, WA." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://YOURDOMAIN.COM/services/landscape-design/" />
-        <meta property="og:image" content="https://YOURDOMAIN.COM/images/landscape-design.jpg" />
+        <meta property="og:url" content="https://atozlandscapingandmore.com/services/hardscaping/" />
+        <meta property="og:image" content="https://atozlandscapingandmore.com/images/hardscaping.jpg" />
         <script type="application/ld+json">{`{"@context":"https://schema.org","@type":"LocalBusiness","name":"A to Z Landscaping & More","description":"Professional landscaping and design services in Kitsap County, WA.","url":"https://YOURDOMAIN.COM/services/landscape-design/","telephone":"+13609533878","areaServed":"Kitsap County, WA","founder":{"@type":"Person","name":"Ryan Scott Sant"}}`}</script>
       </Helmet>
 

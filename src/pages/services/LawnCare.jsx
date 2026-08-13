@@ -166,9 +166,10 @@ export default function LawnCareServicePage() {
       />
 
       <link
-        rel="canonical"
-        href="https://YOURDOMAIN.COM/lawn-care/"
-      />
+    
+    rel="canonical"
+    href="https://atozlandscapingandmore.com/services/lawn-care"
+  />
 
       <meta
         property="og:title"
@@ -187,12 +188,12 @@ export default function LawnCareServicePage() {
 
       <meta
         property="og:url"
-        content="https://YOURDOMAIN.COM/lawn-care/"
+        content="https://atozlandscapingandmore.com/lawn-care/"
       />
 
       <meta
         property="og:image"
-        content="https://YOURDOMAIN.COM/images/lawn-care.jpg"
+        content="https://atozlandscapingandmore.com/images/lawn-care.jpg"
       />
     </Helmet>
 
