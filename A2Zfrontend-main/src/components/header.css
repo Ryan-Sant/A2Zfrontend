@@ -1,0 +1,479 @@
+.mainHeader{
+
+    position:sticky;
+
+    top:0;
+
+    width:100%;
+
+    background:#59BA6E;
+
+    z-index:9999;
+
+    box-shadow:0 3px 15px rgba(0,0,0,.15);
+
+    padding:5px 0;
+
+}
+
+
+
+/* HEADER CONTAINER */
+
+
+.headerContainer{
+
+    height:90px;
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:15px 30px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+}
+
+
+
+
+
+/* LOGO */
+
+
+.headerLogo img{
+
+    width:150px;
+
+    height:auto;
+
+    object-fit:contain;
+
+    display:block;
+
+}
+
+
+
+
+
+/* MENU */
+
+
+.headerMenu{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:30px;
+
+}
+
+
+
+.headerMenu a,
+.serviceTitle{
+
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:16px;
+
+    font-weight:500;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+
+.headerMenu a:hover,
+.serviceTitle:hover{
+
+
+    color:#174d26;
+
+}
+
+
+
+
+
+/* SERVICES DROPDOWN */
+
+
+.servicesDropdown{
+
+
+    position:relative;
+
+    height:90px;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+
+
+
+
+.serviceTitle{
+
+
+    display:flex;
+
+    gap:5px;
+
+    align-items:center;
+
+}
+
+
+
+
+
+.dropdownMenu{
+
+
+    position:absolute;
+
+    top:90px;
+
+    left:0;
+
+    width:260px;
+
+    background: #174d26;
+
+    border-radius:10px;
+
+    padding:10px 0;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transform:translateY(10px);
+
+    transition:.3s ease;
+
+}
+
+
+
+
+/* DROPDOWN HOVER FIX */
+
+
+.servicesDropdown:hover .dropdownMenu,
+.dropdownMenu:hover{
+
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:translateY(0);
+
+}
+
+
+
+
+
+.dropdownMenu a{
+
+
+    display:block;
+
+    padding:13px 20px;
+
+    color:white;
+
+    font-size:15px;
+
+
+}
+
+
+
+.dropdownMenu a:hover{
+
+
+    background:#59BA6E;
+
+    color:white;
+
+
+}
+
+
+
+
+
+
+/* MOBILE MENU BUTTON */
+
+
+.mobileButton{
+
+
+    display:none;
+
+    cursor:pointer;
+
+
+}
+
+
+
+.mobileButton span{
+
+
+    display:block;
+
+    width:28px;
+
+    height:3px;
+
+    background:white;
+
+    margin:5px;
+
+
+}
+
+
+
+
+
+
+
+
+/* TABLET + MOBILE */
+
+
+@media(max-width:900px){
+
+
+
+.headerContainer{
+
+
+    height:85px;
+
+    padding:10px 20px;
+
+
+}
+
+
+
+
+.headerLogo img{
+
+
+    width:130px;
+
+
+}
+
+
+
+
+.mobileButton{
+
+
+    display:block;
+
+
+}
+
+
+
+
+
+.headerMenu{
+
+
+    position:absolute;
+
+    top:85px;
+
+    left:0;
+
+    width:100%;
+
+    background:#59BA6E;
+
+    display:none;
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+    padding:20px;
+
+    gap:20px;
+
+
+}
+
+
+
+.headerMenu.active{
+
+
+    display:flex;
+
+
+}
+
+
+
+
+
+.headerMenu a,
+.serviceTitle{
+
+
+    width:100%;
+
+
+}
+
+
+
+
+
+.servicesDropdown{
+
+
+    height:auto;
+
+    width:100%;
+
+    display:block;
+
+
+}
+
+
+
+
+
+
+.dropdownMenu{
+
+
+    position:static;
+
+    width:100%;
+
+    margin-top:15px;
+
+
+    display:none;
+
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:none;
+
+
+}
+
+
+
+
+
+.servicesDropdown.open .dropdownMenu{
+
+
+    display:block;
+
+
+}
+
+
+
+
+
+.dropdownMenu a{
+
+
+    color:white;
+
+
+}
+
+
+
+
+
+.dropdownMenu a:hover{
+
+
+    background:#174d26;
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+/* SMALL MOBILE */
+
+
+@media(max-width:500px){
+
+
+
+.headerLogo img{
+
+
+    width:115px;
+
+
+}
+
+
+
+
+
+.headerContainer{
+
+
+    padding:10px 15px;
+
+
+}
+
+
+
+}
